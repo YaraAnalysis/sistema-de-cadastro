@@ -1,4 +1,5 @@
 # Projeto Sistema de Cadastro de Alunos
+Projeto para cadastrar alunos e cursos
 
 # Descrição
 Este projeto permite cadatrar vários alunos, dados do aluno e vários cursos para o mesmo aluno.
