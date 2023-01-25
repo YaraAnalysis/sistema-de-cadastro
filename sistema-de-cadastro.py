@@ -8,7 +8,7 @@ curso_aluno = []
 i = 0
 
 cadastrar = 'S'
-while cadastrar == 'S':
+while cadastrar.upper() == 'S':
     nome = input('Digite o nome do aluno: ')
     alunos.append(nome)
     tel = input('Digite o telefone do aluno: ')
@@ -19,7 +19,7 @@ while cadastrar == 'S':
     curso_aluno.append(curso)
     print('Cursos do(a) aluno(a) {} cadastrados até agora: {}.'.format(nome, curso_aluno))
     outro_curso = input('Deseja cadastrar outro curso para o mesmo aluno? (S/N) ')
-    while outro_curso == 'S':
+    while outro_curso.upper() == 'S':
         curso = input('Digite o curso do aluno: ')
         curso_aluno.append(curso)
         print('curso aluno: ', curso_aluno)
